@@ -96,7 +96,7 @@ export function WaitingScreen() {
             </p>
             <div className="flex items-center justify-center gap-2 text-sm">
               <a
-                href="https://www.instagram.com/99knit"
+                href="https://www.instagram.com/knit_paris"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t.instagramLabel}
