@@ -65,7 +65,7 @@ export function NewsletterForm({ locale }: NewsletterFormProps) {
           placeholder={t.emailPlaceholder}
           required
           autoComplete="email"
-          className="h-12 w-full border border-white text-white px-5 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-black transition hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-70 sm:h-12 sm:w-auto sm:tracking-[0.12em]"
+          className="h-12 w-full border border-white text-white px-5 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-black transition disabled:cursor-not-allowed disabled:opacity-70 sm:h-12 sm:w-auto sm:tracking-[0.12em]"
         />
         <button
           type="submit"
