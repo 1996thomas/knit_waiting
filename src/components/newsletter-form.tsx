@@ -55,7 +55,7 @@ export function NewsletterForm({ locale }: NewsletterFormProps) {
       >
         {t.emailLabel}
       </label>
-      <div className="flex flex-col gap-2 sm:flex-row">
+      <div className="flex flex-col gap-2 sm:items-stretch">
         <input
           id="email"
           name="email"
@@ -65,12 +65,12 @@ export function NewsletterForm({ locale }: NewsletterFormProps) {
           placeholder={t.emailPlaceholder}
           required
           autoComplete="email"
-          className="h-12 flex-1 border border-zinc-500/70 bg-black px-3 text-sm text-white outline-none transition placeholder:text-zinc-500 focus:border-zinc-200"
+          className="h-12 w-full border border-white text-white px-5 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-black transition hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-70 sm:h-12 sm:w-auto sm:tracking-[0.12em]"
         />
         <button
           type="submit"
           disabled={status === "loading"}
-          className="h-12 border border-white bg-white px-5 font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-black transition hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-70"
+          className="h-12 w-full border border-white bg-white px-5 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-black transition hover:bg-zinc-200 disabled:cursor-not-allowed disabled:opacity-70 sm:h-12 sm:w-auto sm:tracking-[0.12em]"
         >
           {status === "loading" ? t.submitting : t.submit}
         </button>
