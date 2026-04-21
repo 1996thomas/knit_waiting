@@ -4,10 +4,7 @@ export const defaultLocale: Locale = "en";
 
 export type TranslationSet = {
   brandLine: string;
-  badge: string;
   newsletterHeading: string;
-  title: string;
-  description: string;
   emailLabel: string;
   emailPlaceholder: string;
   submit: string;
@@ -24,14 +21,10 @@ export type TranslationSet = {
 export const translations: Record<Locale, TranslationSet> = {
   en: {
     brandLine: "SHOP AND MAGAZINE FROM PARIS, FR",
-    badge: "Coming soon",
     newsletterHeading: "Join the newsletter",
-    title: "Knit is coming soon.",
-    description:
-      "Leave your email and be the first to know when the new version goes live.",
-    emailLabel: "Get an email when we launch.",
+    emailLabel: "Be the first to know about new collections and exclusive offers",
     emailPlaceholder: "you@email.com",
-    submit: "Subscribe to the newsletter",
+    submit: "Sign up",
     submitting: "Subscribing...",
     genericError: "Something went wrong.",
     networkError: "Unable to contact the server.",
@@ -43,14 +36,10 @@ export const translations: Record<Locale, TranslationSet> = {
   },
   fr: {
     brandLine: "SHOP AND MAGAZINE FROM PARIS, FR",
-    badge: "Bientot en ligne",
     newsletterHeading: "Rejoignez la newsletter",
-    title: "Knit arrive bientot.",
-    description:
-      "Laisse ton email pour etre prevenu des que la nouvelle version est en ligne.",
-    emailLabel: "Recois un mail des que le site est en ligne.",
+    emailLabel: "Sois parmi les premiers à découvrir les nouvelles collections et les offres exclusives.",
     emailPlaceholder: "ton@email.com",
-    submit: "S'abonner a la newsletter",
+    submit: "S'inscrire",
     submitting: "Inscription...",
     genericError: "Une erreur est survenue.",
     networkError: "Impossible de contacter le serveur.",

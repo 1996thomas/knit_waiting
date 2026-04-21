@@ -86,9 +86,6 @@ export function WaitingScreen() {
               </button>
             </div>
           </div>
-          <h1 className="mb-4 mt-1 border-b border-zinc-500/35 pb-3 text-2xl font-black uppercase leading-[1.05] tracking-[0.01em] text-zinc-100 sm:mt-2 sm:pb-4 sm:text-5xl">
-            {t.title}
-          </h1>
           <NewsletterForm locale={locale} />
           <footer className="mt-6 border-t border-zinc-500/35 pt-4 text-center sm:mt-8 sm:pt-5">
             <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-400">
